@@ -23,7 +23,7 @@ class App < Sinatra::Base
   end
 
   get '/multiply/:num1/:num2' do
-    raise params.inspect
+    binding.pry
   end
 
 end
